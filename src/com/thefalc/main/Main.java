@@ -205,7 +205,7 @@ public class Main {
 	public static int initR = 0;
 	public static int initC = 0;
 	
-	// Dijkstra-esque algorithm to solve Peg Solitaire
+	// A* algorithm to solve Peg Solitaire
 	public static void solve(Board board) {
 		Set<Board> seen = new HashSet<Board>();
 		
